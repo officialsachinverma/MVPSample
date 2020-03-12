@@ -1,5 +1,6 @@
 package com.example.mvpsample.view
 
 interface ILoginView {
-    fun onLoginResult(message: String)
+    fun onLoginSuccess(message: String)
+    fun onLoginError(message: String)
 }
