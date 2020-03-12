@@ -1,13 +1,13 @@
-package com.example.mvpsample
+package com.example.mvpsample.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.mvpsample.R
 import com.example.mvpsample.presenter.LoginPresenter
-import com.example.mvpsample.view.ILoginView
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), ILoginView {
+class LoginActivity : AppCompatActivity(), ILoginView {
 
     private lateinit var loginPresenter: LoginPresenter
 
